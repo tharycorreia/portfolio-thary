@@ -1,0 +1,894 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    color: #403d38fc;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+#circle1 {
+    height: 5vmin;
+    width: 5vmin;
+    background: #ecbece;
+    margin-top: 221vh;
+    margin-left: 15vw;
+}
+
+#circle2 {
+    height: 25vmin;
+    width: 25vmin;
+    background-color: #50527a;
+    margin-top: 35vh;
+    margin-left: 24vw;
+}
+
+#circle3 {
+    height: 10vmin;
+    width: 10vmin;
+    background-color: #aca7c4;
+    margin-top: 30vh;
+    margin-left: 5vw;
+}
+
+#circle4 {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #ecbece;
+    margin-top: 90vh;
+    margin-left: 55vw;
+}
+
+#circle5 {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #50527a;
+    margin-top: 185vh;
+    margin-left: 5vw;
+}
+
+#circle6 {
+    height: 15vmin;
+    width: 15vmin;
+    background-color: #aca7c4;
+    margin-top: 63vh;
+    margin-left: 85vw;
+}
+
+#circle7 {
+    height: 34vmin;
+    width: 34vmin;
+    background-color: #ecbece;
+    margin-top: 260vh;
+    margin-left: 51vw;
+}
+
+#circle9 {
+    height: 10vmin;
+    width: 10vmin;
+    background-color: #aca7c4;
+    margin-top: 43vh;
+    margin-left: 56vw;
+}
+
+#circle8 {
+    height: 4vmin;
+    width: 4vmin;
+    background-color: #ecbece;
+    margin-top: 108vh;
+    margin-left: 5vw;
+}
+
+#circle10 {
+    height: 12vmin;
+    width: 12vmin;
+    background-color: #50527a;
+    margin-top: 113vw;
+    margin-left: 4vh;
+}
+
+#circle11 {
+    height: 9vmin;
+    width: 9vmin;
+    background-color: #aca7c4;
+    margin-top: 119vh;
+    margin-left: 93vw;
+}
+
+#circle12 {
+    height: 50vmin;
+    width: 50vmin;
+    background-color: #aca7c4;
+    margin-top: 132vh;
+    margin-left: 65vw;
+}
+
+#circle13 {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #ecbece;
+    margin-top: 236vh;
+    margin-left: 47vw;
+}
+
+#circle14 {
+    height: 5vmin;
+    width: 5vmin;
+    background-color: #50527a;
+    margin-top: 436vh;
+    margin-left: 47vw;
+}
+
+#circle15 {
+    height: 20vmin;
+    width: 20vmin;
+    background-color: #aca7c4;
+    margin-top: 286vh;
+    margin-left: 14vw;
+}
+
+#circle16 {
+    height: 15vmin;
+    width: 15vmin;
+    background-color: #50527a;
+    margin-top: 281vh;
+    margin-left: 7vw;
+}
+
+.menu {
+    margin: 3% 0% 0% -5%;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-menu {
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.2REM;
+    font-weight: 400;
+    color: #403d38fc;
+}
+
+#inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titulo-principal {
+    font-weight: 300;
+    font-size: 9rem;
+    margin: 0;
+}
+
+.subtitulo {
+    margin-top: -0.5%;
+    display: flex;
+    font-weight: 200;
+    letter-spacing: 0.74rem;
+    justify-content: flex-end;
+}
+
+#thary {
+    margin-left: 3.8%;
+    opacity: 0.8;
+    height: 400px;
+    display: inline-block;
+}
+
+.title {
+    padding-top: 2.7%;
+    margin-left: 8%;
+    font-weight: 200;
+    letter-spacing: 0.74rem;
+}
+
+.biografia,
+.formacao {
+    width: 27%;
+    display: inline-block;
+    margin: 0 2%;
+
+}
+
+.row-1 {
+    height: 480px;
+    display: flex;
+}
+
+.soft-skills {
+    width: 39%;
+    padding-top: 2%;
+}
+
+.soft-container,
+.exp-container {
+    display: flex;
+    padding: 3%;
+}
+
+.formacao-container {
+    padding: 3%;
+}
+
+.soft-coluna {
+    width: 40%;
+}
+
+.exp-coluna {
+    width: 50%;
+}
+
+.experiencias {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-bio {
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+.titulo-botao,
+.title-rodape,
+.titulo-contato {
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+    font-size: 1.4rem;
+}
+
+.altura,
+.altura-sobre-mim {
+    height: 1000px;
+    background: #dacde07a;
+    z-index: -2;
+   /* border: solid;*/
+}
+
+.container {
+    display: inline-block;
+    width: 18%;
+    margin-top: 15%;
+
+}
+
+.ctt-container {
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+}
+
+.row-2 {
+    display: flex;
+}
+
+.redes-sociais {
+    margin-left: 2%;
+}
+
+.item-menu:hover {
+    color: #dfb437;
+}
+
+
+.div-info {
+    margin-left: 3%;
+    width: 22%;
+    height: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.linha-horizontal {
+    margin-left: 1.6%;
+    margin-top: 22.5%;
+    width: 20%;
+    position: absolute;
+}
+
+.linha-vertical {
+    margin-left: -11%;
+    margin-top: 11%;
+    transform: rotate(90deg);
+    width: 27%;
+    position: absolute;
+}
+
+#contato .linha-horizontal {
+    margin-left: 4.6%;
+    margin-top: 1%;
+    width: 40%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#contato .linha-horizontal2 {
+    width: 35%;
+    margin-top: 0.5%;
+    margin-left: 5.5%;
+}
+
+
+.altura-contato {
+    height: 95vh;
+    background: #dacde07a;
+  /*  border: solid;*/
+}
+
+
+@media (max-width: 1780px) {
+    .soft-coluna {
+        width: 47%;
+    }
+}
+
+@media (max-width: 1650px) {
+    .row-1 {
+        height: 540px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .soft-container {
+        display: block;
+    }
+
+    .soft-coluna {
+        width: 100%;
+    }
+
+    .soft-skills {
+        width: 25%
+    }
+
+    .biografia,
+    .formacao {
+        width: 33%;
+    }
+
+    #circle11 {
+        margin-left: 17vw;
+    }
+
+    #circle12 {
+        display: none;
+    }
+
+    .div-info {
+        width: 2%;
+    }
+}
+
+@media (max-width: 1450px) {
+    .altura-sobre-mim {
+        height: 1080px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .titulo-principal {
+        font-size: 7rem;
+    }
+
+    .subtitulo {
+        font-size: 1.28rem;
+    }
+
+    #thary {
+        height: 300px;
+        width: 300px;
+    }
+
+    .title {
+        margin-left: 6%;
+        font-size: 1.7rem;
+    }
+
+}
+
+@media (max-width: 1150px) {
+    .row-1 {
+        height: 600px;
+    }
+
+    .altura-sobre-mim {
+        height: 1363px;
+    }
+
+    #circle6 {
+        display: none;
+    }
+}
+
+@media (max-width: 1024px) {
+    .div-info {
+        width: 0;
+    }
+
+    .linha-vertical {
+        margin-top: 22%;
+    }
+
+    .linha-horizontal {
+        margin-top: 32.5%;
+    }
+
+    .row-1 {
+        height: 670px;
+        margin-top: 6vh;
+        display: block;
+
+    }
+
+    .soft-skills {
+        width: 57%;
+        margin-left: 21%;
+    }
+
+    .biografia {
+        width: 58%;
+    }
+
+    .formacao {
+        width: 35%;
+    }
+
+    #thary {
+        vertical-align: inherit;
+    }
+
+    .soft-container {
+        display: flex;
+    }
+
+    .botao-curriculo {
+        margin-top: 8%;
+    }
+
+    #circle14 {
+        margin-top: 385vh;
+    }
+}
+
+@media (max-width: 1000px) {
+    .row-1 {
+        flex-direction: column;
+    }
+
+    .soft-skills {
+        width: 95%;
+        margin-left: 2%;
+    }
+
+    .formacao,
+    .soft-skills {
+        width: 94%;
+        margin-left: 0%;
+        padding: 0 3%;
+    }
+
+    .biografia {
+        width: 55%;
+    }
+
+    .row-2 {
+        display: block;
+    }
+
+    .soft-container {
+        display: flex;
+    }
+
+    .altura-sobre-mim {
+        height: 1500px;
+    }
+
+    #thary {
+        vertical-align: top;
+        margin-top: inherit;
+    }
+
+    .linha-horizontal {
+        margin-top: 36.5%;
+    }
+
+    .linha-vertical {
+        margin-top: 26%;
+    }
+
+    .subtitulo-bio {
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+}
+
+
+@media (max-width: 930px) {
+    .menu {
+        display: none;
+    }
+
+    .titulo-principal {
+        font-size: 4rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
+
+    #thary {
+        height: 200px;
+        width: 200px;
+    }
+
+    .ctt-container {
+        display: block;
+    }
+
+    .redes-sociais {
+        margin-left: 8%;
+    }
+
+    .biografia {
+        width: 65%;
+    }
+}
+
+
+@media (max-width: 790px) {
+    .row-1 {
+        flex-direction: column;
+        height: 738px;
+    }
+
+    .formacao,
+    .soft-skills {
+        width: 95%;
+        margin-left: 2%;
+    }
+
+    .biografia {
+        width: 60%;
+    }
+
+    .row-2 {
+        display: block;
+        margin-top: 3%;
+    }
+
+    .soft-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .altura-sobre-mim {
+        height: 1540px;
+    }
+
+    #thary {
+        vertical-align: top;
+        margin-top: inherit;
+    }
+
+    .linha-horizontal {
+        margin-top: 36.5%;
+    }
+
+    .linha-vertical {
+        margin-top: 26%;
+    }
+
+    .subtitulo-bio {
+        margin-left: 3%;
+    }
+
+    .experiencias {
+        padding: 2%;
+    }
+
+    .exp-coluna {
+        width: 39%;
+    }
+
+    .div-contato {
+        margin-bottom: 2%;
+    }
+
+    #contato .linha-vertical {
+        margin-left: 0%;
+        margin-top: -2%;
+        width: 12%;
+    }
+
+    #contato .linha-horizontal {
+        margin-top: -1%;
+        width: 55%;
+    }
+
+    #contato .linha-horizontal2 {
+        margin-left: 3.5%;
+    }
+
+    .ctt-container {
+        margin-left: 0%;
+    }
+}
+
+
+
+@media (max-width: 665px) {
+
+    .soft-container,
+    .exp-container {
+        display: block;
+    }
+
+    .row-1 {
+        height: 1060px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .altura-sobre-mim {
+        height: 2050px;
+    }
+
+    #thary {
+        margin-top: 16%;
+
+    }
+
+    .biografia { 
+        width: 95%;
+    }
+}
+
+@media (max-width: 560px) {
+    .altura-sobre-mim {
+        height: 2150px;
+    }
+
+    .row-1 {
+        height: 1085px;
+    }
+
+    .title-rodape {
+        font-size: 0.9rem;
+    }
+
+    .exp-coluna {
+        width: 100%;
+        margin-bottom: 9%;
+    }
+}
+
+@media (max-width: 550px) {
+    .titulo-principal {
+        font-size: 3rem;
+    }
+
+    .subtitulo {
+        font-size: 0.85rem;
+    }
+
+    .titulo-contato {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 500px) {
+    .row-1 {
+        height: 1170px;
+    }
+    .contato-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 440px) {
+    .titulo-principal {
+        font-size: 2rem;
+    }
+
+    .subtitulo {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width: 415px) {
+    #contato i {
+        display: none;
+    }
+    .titulo-contato {
+        font-size: 0.9rem;
+    }
+    .contato-icon {
+        height: 19px;
+    }
+    .altura-sobre-mim {
+        height: 2234px;
+    }
+    .title {
+        margin-left: 17%;
+    }
+    .row-1 {
+        margin-top: 2vh;
+        height: 1289px;
+    }
+    #thary {
+        margin-top: inherit;
+        margin-left: 21%;
+    }
+    .biografia {
+        margin: 7%;
+        width: 86%;
+        margin-top: 15%;
+    }
+    .linha-vertical {
+        margin-top: 50%;
+        margin-left: 5%;
+    }
+    .linha-horizontal {
+        width: 41%;
+        margin-left: 14%;
+        margin-top: 59.5%;
+    }
+    .exp-coluna {
+        width: 100%;
+        margin-bottom: 11%;
+    }
+    .botao-curriculo {
+        margin: 2% 25%;
+    }
+    .titulo-botao {
+        text-align: center;
+    }
+    .ctt-container {
+        margin-top: 9vh;
+    }
+    .altura-contato {
+        height: 450px;
+    }
+}
+
+@media (max-width: 375px) {
+    .row-1 {
+        height: 1256px;
+    }
+    .altura-sobre-mim {
+        height: 2265px;
+    }   
+}
+
+@media (max-width: 360px) {
+    .row-1 {
+        height: 1320px;
+    }
+    .altura-sobre-mim {
+        height: 2285px;
+    }
+}
+@media (max-width: 320px) {
+    .altura-sobre-mim {
+        height: 2346px;
+    }
+    .row-1 {
+        height: 1355px;
+    }
+    .titulo-contato {
+        font-size: 0.7rem;
+    }
+    
+}
+
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 300;
+    letter-spacing: 0.4rem;
+}
+
+
+.linha {
+    border-top: solid #dfb437;
+}
+
+
+
+
+
+.ctt {
+    margin-left: 8%;
+}
+
+
+
+.contato-icon {
+    display: inline-block;
+}
+
+#contato .container h3 {
+    vertical-align: super;
+}
+
+#contato .linha-vertical {
+    margin-left: 3%;
+    margin-top: -2%;
+    transform: rotate(90deg);
+    width: 8%;
+}
+
+
+
+.cidade {
+    display: flex;
+    justify-content: center;
+    background: #dacde07a;
+
+}
+
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+
+.exp {
+    display: inline-block;
+    width: 22%;
+}
+
+
+
+.txt-sobre {
+    vertical-align: super;
+}
+
+
+
+
+.botao-curriculo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.botao-curriculo div {
+    border: solid 1px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.botao-curriculo div:hover {
+    box-shadow: #dfb437;
+}
